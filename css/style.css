@@ -97,11 +97,6 @@ section.membros{
     color: #000;
 }
 
-.membros .txt-meio-site strong{
-    font-size: 24px;
-    color: #000;
-}
-
 .membros .slide-content{
     margin: 25px 60px;
     overflow: hidden;
@@ -234,11 +229,6 @@ section.membros{
 
     .titulo{
         font-size: 32px;
-    }
-
-    .topo-do-site .txt-topo-site p{
-        margin: 20px 0;
-        font-size: 12px;
     }
 
     .topo-do-site h4{
