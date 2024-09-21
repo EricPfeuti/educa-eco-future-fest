@@ -1,0 +1,132 @@
+/* GERAL */
+body{
+    height: 100vh;
+    color: #000;
+}
+
+.flex{
+    display: flex;
+}
+
+/* HEADER */
+header{
+    padding: 10px 7%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    transition: .2s;
+    font-size: 18px;
+}
+
+header.rolagem {
+    background-color: #fff;
+    padding: 10px 7%;
+}
+
+#market{
+    margin: 5px;
+    font-size: 32px;
+    color: #00BF62;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+#market:hover{
+    color: #026636;
+}
+
+/* TOPO do SITE */
+section.topo-do-site{
+    padding: 180px 7%;
+}
+
+.titulo{
+    font-size: 55px;
+    font-weight: 625;
+    margin-bottom: 16px;
+}
+
+.topo-do-site h4{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.topo-do-site p{
+    margin-bottom: 16px;
+}
+
+.img-topo-site img{
+    width: 400px;
+}
+
+.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.topo-do-site #pesquisa{
+    width: 80%;
+}
+
+/* CURSOS */
+section.cursos{
+    padding: 40px 7%;
+}
+
+section.cursos h1{
+    text-align: center;
+}
+
+@media screen and (max-width: 1120px) {
+    /* GERAL */
+    .flex{
+        flex-direction: column;
+    }
+
+    /* HEADER */
+    header{
+        background-color: #fff;
+    }
+
+    header #market{
+        display: none;
+    }
+
+    /* TOPO do SITE */
+    section.topo-do-site{
+        padding: 30px 7%;
+    }
+
+    .img-topo-site img{
+        display: none;
+    }
+
+    section.topo-do-site .flex{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        gap: 90px;
+    }
+
+    .titulo{
+        font-size: 34px;
+    }
+
+    .topo-do-site .txt-topo-site p{
+        margin: 20px 0;
+        font-size: 16px;
+    }
+
+    .topo-do-site h4{
+        font-size: 24px;
+    }
+
+    .topo-do-site #pesquisa{
+        width: 100%;
+    }
+    
+}
