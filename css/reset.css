@@ -22,3 +22,35 @@ span{
     color: #fff;
     font-weight: 600;
 }
+
+.btn-social button{
+    border: none;
+    background-color: #00BF62;
+    width: 68px;
+    height: 68px;
+    border-radius: 40px;
+    font-size: 38px;
+    margin: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: .3s ease;
+}
+
+.btn-social button:hover{
+    background: #006836;
+}
+
+@media screen and (max-width: 1120px) {
+    .btn-social button{
+        border: none;
+        background-color: #00BF62;
+        width: 58px;
+        height: 58px;
+        border-radius: 40px;
+        font-size: 35px;
+        margin: 5px;
+        cursor: pointer;
+        color: #fff;
+        transition: .3s ease;
+    }
+}
