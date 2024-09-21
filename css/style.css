@@ -8,6 +8,17 @@ body{
     display: flex;
 }
 
+.titulo{
+    font-size: 55px;
+    font-weight: 625;
+    margin-bottom: 16px;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 /* HEADER */
 header{
     padding: 10px 7%;
@@ -18,11 +29,7 @@ header{
     z-index: 9999;
     transition: .2s;
     font-size: 18px;
-}
-
-header.rolagem {
     background-color: #fff;
-    padding: 10px 7%;
 }
 
 #market{
@@ -40,12 +47,6 @@ header.rolagem {
 /* TOPO do SITE */
 section.topo-do-site{
     padding: 180px 7%;
-}
-
-.titulo{
-    font-size: 55px;
-    font-weight: 625;
-    margin-bottom: 16px;
 }
 
 .topo-do-site h4{
@@ -81,6 +82,125 @@ section.cursos h1{
     text-align: center;
 }
 
+/* MEMBROS */
+
+section.membros{
+    padding: 70px 4%;
+}
+
+.membros .txt-meio-site{
+    text-align: center;
+}
+
+.membros .txt-meio-site h1{
+    font-size: 56px;
+    color: #000;
+}
+
+.membros .txt-meio-site strong{
+    font-size: 24px;
+    color: #000;
+}
+
+.membros .slide-content{
+    margin: 25px 60px;
+    overflow: hidden;
+}
+
+.membros .image-content, 
+.membros .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.membros .image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+    background-image: url('../images/perfil.png');
+    border-radius: 5px;
+}
+
+.membros .slide-container{
+    max-width: 1300px;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.membros .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px 5px 0 5px;
+}
+
+.membros .overlay::before,
+.membros .overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 0;
+    width: 0;
+}
+
+.membros .overlay::after{
+    border-radius: 0 5px 0 0;
+    background-color: #fff;
+}
+
+.membros .card{
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.membros .nome{
+    font-size: 28px;
+    font-weight: 620;
+    color: #000;
+}
+
+.membros .sub-title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+.membros .descricao{
+    font-size: 14px;
+    text-align: center;
+}
+
+.membros .card-image{
+    position: relative;
+    width: 220px;
+    height: 230px;
+}
+
+.membros .card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.swiper-navBtn{
+    color: #00BF62;
+    transition: color .3s ease;
+}
+
+.swiper-navBtn:hover{
+    color: #006836;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+    font-size: 40px;
+}
+
 @media screen and (max-width: 1120px) {
     /* GERAL */
     .flex{
@@ -113,20 +233,56 @@ section.cursos h1{
     }
 
     .titulo{
-        font-size: 34px;
+        font-size: 38px;
     }
 
     .topo-do-site .txt-topo-site p{
         margin: 20px 0;
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .topo-do-site h4{
-        font-size: 24px;
+        font-size: 28px;
     }
 
     .topo-do-site #pesquisa{
         width: 100%;
     }
+
+    /* MEMBROS */
+
+    .membros .txt-meio-site h1{
+        font-size: 40px;
+    }
+    .membros .txt-meio-site strong{
+        font-size: 18px;
+    }
+
+    .membros .nome{
+        font-size: 24px;
+        font-weight: 600;
+        color: #000;
+        align-items: flex-start;
+    }
     
+    .membros .sub-title{
+        font-size: 14px;
+        font-weight: 590;
+        color: #000;
+    }
+
+    .membros .image-content{
+        background-image: url('../images/perfilCel.png');
+    }
+
+    .membros .card-image{
+        position: relative;
+        width: 220px;
+        height: 130px;
+    }
+
+    .membros .swiper-navBtn{
+        display: none;
+    }
+
 }
