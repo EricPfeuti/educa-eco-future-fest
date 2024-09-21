@@ -238,7 +238,7 @@ section.membros{
 
     .topo-do-site .txt-topo-site p{
         margin: 20px 0;
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .topo-do-site h4{
@@ -253,9 +253,6 @@ section.membros{
 
     .membros .txt-meio-site h1{
         font-size: 40px;
-    }
-    .membros .txt-meio-site strong{
-        font-size: 18px;
     }
 
     .membros .nome{
