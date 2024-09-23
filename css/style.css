@@ -46,7 +46,7 @@ header{
 
 /* TOPO do SITE */
 section.topo-do-site{
-    padding: 180px 7%;
+    padding: 220px 7%;
 }
 
 .topo-do-site h4{
@@ -82,6 +82,43 @@ section.cursos h1{
     text-align: center;
 }
 
+.cursos .card{
+    border: none;
+}
+
+.cursos h5{
+    font-weight: 625;
+    font-size: 22px;
+}
+
+.cursos h4{
+    font-weight: 625;
+    font-size: 17px;
+}
+
+.cursos .card p{
+    font-size: 15px;
+    color: #595858;
+}
+
+.cursos .card ul{
+    list-style: none;
+}
+
+.cursos .card li{
+    padding-top: 2px;
+}
+
+.cursos .card .fa-solid, .cursos .card .fa-regular{
+    font-size: 26px;
+    transition: .4s;
+    margin: 3px;
+}
+
+.cursos .card .checked{
+    color: #C1B11C;
+}
+
 /* MEMBROS */
 
 section.membros{
@@ -94,6 +131,11 @@ section.membros{
 
 .membros .txt-meio-site h1{
     font-size: 56px;
+    color: #000;
+}
+
+.membros .txt-meio-site strong{
+    font-size: 24px;
     color: #000;
 }
 
@@ -112,8 +154,7 @@ section.membros{
 
 .membros .image-content{
     position: relative;
-    row-gap: 5px;
-    padding: 25px 0;
+    padding: 25px 10px;
     background-image: url('../images/perfil.png');
     border-radius: 5px;
 }
@@ -182,18 +223,46 @@ section.membros{
     object-fit: cover;
 }
 
-.swiper-navBtn{
+.membros .swiper-navBtn, 
+#buttonCourse{
     color: #00BF62;
     transition: color .3s ease;
 }
 
-.swiper-navBtn:hover{
+.swiper-navBtn:hover, #buttonCourse:hover{
     color: #006836;
 }
 
 .swiper-navBtn::before,
-.swiper-navBtn::after{
+.swiper-navBtn::after,
+#buttonCourse::before,
+#buttonCourse::after{
     font-size: 40px;
+}
+
+/* FOOTER */
+footer{
+    padding: 20px 4%;
+    background-color: #028847;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .line-footer p i{
+    color: white;
+    font-size: 22px;
+}
+
+footer .line-footer p a{
+    color: #fff;
+}
+
+footer .logo-footer:hover{
+    transform: scale(1.05);
+}
+
+footer .logo-footer{
+    transition: 0.2s;
 }
 
 @media screen and (max-width: 1120px) {
@@ -231,6 +300,11 @@ section.membros{
         font-size: 32px;
     }
 
+    .topo-do-site .txt-topo-site p{
+        margin: 20px 0;
+        font-size: 16px;
+    }
+
     .topo-do-site h4{
         font-size: 20px;
     }
@@ -243,6 +317,9 @@ section.membros{
 
     .membros .txt-meio-site h1{
         font-size: 40px;
+    }
+    .membros .txt-meio-site strong{
+        font-size: 18px;
     }
 
     .membros .nome{
@@ -266,10 +343,6 @@ section.membros{
         position: relative;
         width: 220px;
         height: 130px;
-    }
-
-    .membros .swiper-navBtn{
-        display: none;
     }
 
 }
