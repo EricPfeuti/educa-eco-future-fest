@@ -1,4 +1,4 @@
-# EducaEco - Future Fest
+# EducaEco
 
 <img src="images/Capturar.PNG">
 
