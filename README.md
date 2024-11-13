@@ -14,9 +14,3 @@
 - ### 👨‍💻 Linguagens Utilizadas:
   [![My Skills](https://skillicons.dev/icons?i=js,nodejs,html,css,mongo)](https://skillicons.dev)
 - ### 💡 Problemas Resolvidos:
-
-## 🛠️ INSTALAÇÃO:
-
-## ⚒️ USO do SITE:
-
-## 🎬 EXEMPLO com VÍDEO:
