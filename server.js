@@ -8,7 +8,7 @@ const { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } = require('@googl
 const app = express();
 const port = 3001;
 const MODEL_NAME = "gemini-pro";
-const API_KEY = "AIzaSyD9_Z8R1ZUpAtHeXOiNuGEJzFnB95Ozs18";
+const API_KEY = "SuaAPIKey";
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
