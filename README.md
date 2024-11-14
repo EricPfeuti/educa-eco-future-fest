@@ -14,3 +14,8 @@
 - ### 👨‍💻 Linguagens Utilizadas:
   [![My Skills](https://skillicons.dev/icons?i=js,nodejs,html,css,mongo,bots)](https://skillicons.dev)
 - ### 💡 Problemas Resolvidos:
+  - A EducaEco facilita o acesso a cursos focados em sustentabilidade, possibilitando a capacitação em práticas ecológicas e sociais;
+  - Pessoas querem adotar práticas sustentáveis em sua vida, a EducaEco oferece conhecimento sobre práticas sustentáveis, simplificando o processo de aprendizado para que indivíduos e empresas possam aprofundar no assunto e identificar sua real importância;
+  - A sustentabilidade parece complexa para muitas pessoas, com os cursos e exemplos reais, EducaEco oferece estratégias que simplificam a implementação de práticas sustentáveis no cotidiano, tornando sustentabilidade mais acessível e aplicável na prática;
+
+## 🛠️ INSTALAÇÃO:
