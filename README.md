@@ -19,6 +19,7 @@
   - A sustentabilidade parece complexa para muitas pessoas, com os cursos e exemplos reais, a EducaEco oferece estratégias que simplificam a implementação de práticas sustentáveis no cotidiano;
 
 ## 🛠️ INSTALAÇÃO:
+  Para instalar as dependências do projeto, utilize os seguintes comandos:
   - npm init -y
   - npm install express
   - npm install mongodb
