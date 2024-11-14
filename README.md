@@ -28,9 +28,26 @@
   - npm install method-override
 
   - ### adicionar sua chave API em "const API_KEY":
-    
-    ![imgAPIKEY](https://github.com/user-attachments/assets/a9ede9d5-defa-41a6-9718-cbddedf31c79)
+    - Para isso, vamos criar um projeto no Google Cloud para poder criar uma chave no Google AI Studio em https://cloud.google.com/
+   
+    ![consoleGEMINI](https://github.com/user-attachments/assets/351a5dd3-0aa7-4919-b467-0194a5e59a54)
 
+    - Crie um projeto:
+   
+    ![crieUmProjeto](https://github.com/user-attachments/assets/e3bed1e1-90ba-4c22-9b61-32d3da3d2e40)
+
+    - Criando o projeto:
+   
+    ![CriandoProjeto](https://github.com/user-attachments/assets/5f3f822a-e1d3-42cf-95dd-7c20828974b8)
+
+    - Agora vamos vincular o projeto no Google AI Studio para gerar uma chave API em https://ai.google.dev/aistudio?hl=pt-br
+   
+    ![GoogleAiStudioTela](https://github.com/user-attachments/assets/46b37568-396c-4feb-a775-017d7092d5d8)
+
+    - Por fim adicione a sua chave API no lugar de "SuaAPIKey":
+
+    ![imgAPIKEY](https://github.com/user-attachments/assets/a9ede9d5-defa-41a6-9718-cbddedf31c79)
+  
   - ### node server.js
 
 
