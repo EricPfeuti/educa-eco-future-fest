@@ -25,9 +25,6 @@
   - npm install express-session
   - npm install bcrypt
   - npm install @google/generative-ai chalk ora prompt-sync
-  - adicionar o "type":"module" no package.json:
-
-    ![image](https://github.com/user-attachments/assets/475cea8e-f829-4b5d-bd99-79ac279f1b51)
 
   - adicionar sua chave API em "const API_KEY":
     
