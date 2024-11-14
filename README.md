@@ -61,5 +61,5 @@
     - /chatProf
 
 ## 🎥 VÍDEOS do USO do SITE:
-  - Instalando extensões:
+  - Instalando extensões: https://youtu.be/7cxhKOe_G-A?si=QFG9dBPWi90g6Ku9
   - EducaEco: 
