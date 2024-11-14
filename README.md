@@ -40,7 +40,7 @@
    
     ![CriandoProjeto](https://github.com/user-attachments/assets/5f3f822a-e1d3-42cf-95dd-7c20828974b8)
 
-    - Agora vamos vincule seu projeto no Google AI Studio para gerar uma chave API em https://ai.google.dev/aistudio?hl=pt-br
+    - Agora vincule seu projeto no Google AI Studio para gerar uma chave API em https://ai.google.dev/aistudio?hl=pt-br
    
     ![GoogleAiStudioTela](https://github.com/user-attachments/assets/46b37568-396c-4feb-a775-017d7092d5d8)
 
