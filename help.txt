@@ -1,0 +1,43 @@
+CADASTRO de CURSOS e COMUNIDADE POSTS
+
+-Cursos:
+    *Economia Circular
+    *75
+    *https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtKt5iMdCobgdEtuKKUv4MRWvnBrcUOI3Fzw&s
+
+    *Energia Renovável
+    *109
+    *https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsXHkuIHywXY7m3zHBQHNslKgySoG6thZYjA&s
+
+    *Consumo Sustentável
+    *79
+    *https://boomi.b-cdn.net/wp-content/uploads/2023/05/Consumo-sustentavel-o-que-e-e-sua-importancia.png
+
+    *Mobilidade Sustentável
+    *122
+    *https://ecoaliza.com.br/wp-content/uploads/2024/01/Transporte-Sustentavel.jpg
+
+    *Engenharia Ambiental
+    *200
+    *https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZDUXlwfwhh5Uk4r7r-0yLCDtTipp1cS809Q&s
+
+    *Mudanças Climáticas
+    *59
+    *https://tratamentodeagua.com.br/wp-content/uploads/2022/11/Mudancas-climaticas-e-doencas.jpg
+
+    *Gestão de Resíduos
+    *79
+    *https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdfHd0LeAcyccFQfkM6Bx2a45aft6He5QVsw&s
+
+    *Alimentação Sustentável
+    *50
+    *https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqHm1_NtZamGK0Mg_LcMW6BUAyQZIVQhzS6Q&s
+
+-Comunidade:
+    *🚀 Inovação Sustentável
+    *A inovação sustentável é o futuro! À medida que avançamos em tecnologia, temos a chance de criar soluções que protejam o meio ambiente e melhorem a qualidade de vida. Desde energias limpas até produtos biodegradáveis, a inovação pode ser nossa aliada para um planeta mais saudável.
+    *https://www.mtcriativo.mt.gov.br/wp-content/uploads/2024/09/IMG_0816.jpg
+
+
+
+

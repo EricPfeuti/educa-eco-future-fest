@@ -1,0 +1,374 @@
+/* GERAL */
+.interface{
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+/* MAIN */
+main{
+    color: #000;
+}
+
+/* TOPO */
+section.topo-do-site{
+    padding: 200px 8%;
+}
+
+section.topo-do-site .img-topo-site img{
+    border-radius: 30px;
+    width: 350px;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.titulo{
+    font-size: 56px;
+}
+
+.sub-title{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.paragraph{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+form{
+    background: #fff;
+    width: 600px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #858585;
+    border-radius: 5px;
+}
+
+form input{
+    flex: 1;
+    border: none;
+    outline: none;
+    margin: 5px;
+    font-size: 16px;
+}
+
+/* CURSOS */
+section.cursos .container-cards{
+    padding: 40px 9%;
+}
+
+/* MEMBROS */
+section.team{
+    padding: 40px 4%;
+}
+
+.container-team{
+    width: 100%;
+    padding: 40px 4%;
+}
+
+.team .row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.container-team .membro{
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.container-team .membro img{
+    margin-bottom: 10px;
+}
+
+.container-team .membro h2{
+    margin-bottom: 8px;
+}
+
+/* CARDS OPTION */
+section.cards{
+    padding: 160px 4%;
+    color: #000;
+}
+
+section.cards .flex{
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+}
+
+section.cards .flex section.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-width: 350px;
+    margin-left: 32px;
+    border: 2px solid transparent;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+section.cards section.card h3{
+    font-size: 25px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+section.cards section.card span{
+    color: #000;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+section.cards section.card img{
+    border-radius: 8px;
+    width: 280px;
+    height: 180px;
+}
+
+/* COMUNIDADE */
+section.comunidade{
+    padding: 140px 4%;
+}
+
+section.comunidade .car{
+    width: 100px;
+}
+
+/* ACHOU PUBLICACAO */
+section.busca{
+    padding: 140px 4%;
+}
+
+/* CARRINHO */
+section.cartCompra{
+    padding: 180px 4%;
+}
+
+section.cartCompra .flex .interface{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.cartCompra .flex .btnCompra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+section.cartCompra .flex .btnCompra button{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #48A25A;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .2s ease;
+    color: #fff;
+}
+
+section.cartCompra .flex .btnCompra button:hover{
+    background-color: #234e2c;
+}
+
+/* SECTION B-CORP */
+section.b-corp{
+    padding: 260px 8%;
+}
+
+section.b-corp img{
+    width: 400px;
+}
+
+section.b-corp .titulo-bcorp{
+    font-size: 38px;
+    line-height: 120%;
+}
+
+/* FOOTER */
+footer{
+    position: relative;
+    width: 100%;
+    background: #48A25A;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer .social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+}
+
+footer .icon-elem{
+    list-style: none;
+}
+
+footer .icon{
+    color: #fff;
+    font-size: 40px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: .5s;
+}
+
+footer .icon:hover{
+    transform: translateY(-5px);
+}
+
+footer .menu-footer{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+footer .menu-footer .menu-footer-elem{
+    list-style: none;
+}
+
+footer .menu-footer-icon{
+    color: #fff;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.75;
+    transition: .3s;
+}
+
+footer .menu-footer-icon:hover{
+    opacity: 1;
+}
+
+footer .text{
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1080px) {
+    /* GERAL */
+    .flex{
+        flex-direction: column;
+    }
+
+    .titulo{
+        font-size: 40px;
+    }
+    
+    .sub-title{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    
+    .paragraph{
+        font-size: 15px;
+        margin-bottom: 10px;
+      
+    }
+
+    /* TOPO do SITE */
+    section.topo-do-site{
+        padding: 170px 4%;
+    }
+
+    .img-topo-site img{
+        width: 350px;
+        margin-top: 10px;
+    }
+
+    section.topo-do-site .flex{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        gap: 90px;
+    }
+
+    /* FORM */
+    form{
+        background: #fff;
+        width: 300px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        border: 1px solid #858585;
+        border-radius: 5px;
+    }
+    
+    form input{
+        flex: 1;
+        border: none;
+        outline: none;
+        margin: 5px;
+        font-size: 16px;
+    }
+
+    /* MEMBROS */
+    .container-team .row .membro .btn-social button{
+        margin: 0;
+    }
+
+    /* B-CORP */
+    section.b-corp{
+        padding: 140px 8%;
+    }
+
+    section.b-corp img{
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section.b-corp .flex{
+        flex-direction: column-reverse;
+    }
+
+    section.b-corp .titulo-bcorp{
+        font-size: 30px;
+    }
+
+}

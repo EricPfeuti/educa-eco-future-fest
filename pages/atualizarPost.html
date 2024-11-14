@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EducaEco - Future Fest</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/login.css">
+
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="shortcut icon" href="images/logoEcoEduca.png" type="image/x-icon">
+
+    <!-- SCRIPT -->
+    <script defer src="js/menu.js"></script>
+    <script defer src="js/atualizarPost.js"></script>
+</head>
+<body>
+    
+    <header>
+        <a href="#" class="logo">
+          <img src="images/logoEducaEcoPreto.png" alt="logoEducaEco">
+        </a>
+          
+        <ul class="navbar">
+          <li><a href="/prof">Home</a></li>
+          <li><a href="/prof">Cursos</a></li>
+          <li><a href="/comunidade">Comunidade</a></li>
+          <li><a href="/prof">Fundadores</a></li>
+        </ul>
+          
+        <div class="main">
+          <div class="chatBotIcon">
+            <a href="/chatProf" id="chat"><i class='bx bxs-message-rounded-dots'></i></a>
+          </div>
+          <a href="/option" id="car"><i class='bx bxs-cart' style='color:#48a25a'  ></i></a>
+          <a href="/option" id="btn-cadastro"><button>LOGIN</button></a>
+          <div class="btn-abrir-menu" id="btn-menu">
+            <i class='bx bx-menu'></i>
+          </div>
+        </div>
+          
+        <div class="menu-mobile" id="menu-mobile">
+          <div class="btn-fechar">
+            <i class='bx bx-x'></i>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="/prof">Home</a></li>
+              <li><a href="/prof">Cursos</a></li>
+              <li><a href="/comunidade">Comunidade</a></li>
+              <li><a href="/prof">Fundadores</a></li>
+              <li><a href="/option">Login</a></li>
+            </ul>
+          </nav>
+        </div>
+          
+        <div class="overlay-menu" id="overlay-menu">
+
+        </div>
+
+    </header>
+
+    <div class="container">
+        <section class="header">
+            <img src="images/logoEcoEduca.png" alt="">
+            <h2>Atualizar Publicação - EducaEco</h2>
+        </section>
+
+        <form action="/atualizarpublicacao" method="POST" id="form" class="form">
+            <input type="hidden" id="id" name="id" value="${publicacao._id}">
+            <div class="form-content">
+                <label for="assuntoNome">Assunto da Publicação:</label>
+                <input type="text" id="assuntoNome" name="assuntoNome" placeholder="Digite o assunto da sua publicação:" required>
+            </div>
+            <div class="form-content">
+                <label for="nomeProf">Nome do Prof:</label>
+                <input type="text" id="nomeProf" name="nomeProf" placeholder="Digite o nome do professor:" readonly>
+            </div>
+            <div class="form-content">
+              <label for="textoPubli">Texto da Publicação:</label>
+              <input type="text" id="textoPubli" name="textoPubli" placeholder="Digite um pouco sobre sua publicação:" required>
+            </div>
+            <div class="form-content">
+              <label for="urlImagePubli">URL da Imagem:</label>
+              <input type="text" id="urlImagePubli" name="urlImagePubli" placeholder="Digite a url da imagem do seu curso:" required>
+            </div>
+            <button type="submit">EDITAR</button>
+        </form>
+    </div>
+
+</body>
+<!-- BOXICONS -->
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</html>

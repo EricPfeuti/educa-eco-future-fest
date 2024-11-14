@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/video.css">
+
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="shortcut icon" href="images/logoEcoEduca.png" type="image/x-icon">
+
+    <!-- SCRIPT -->
+    <script defer src="js/menu.js"></script>
+    <script defer src="js/nomeAluno.js"></script>
+
+    <title>EducaEco - Seus Items</title>
+</head>
+<body>
+    <header>
+      <a href="#" class="logo">
+        <img src="images/logoEducaEcoPreto.png" alt="logoEducaEco">
+      </a>
+        
+      <ul class="navbar">
+        <li><a href="/aluno">Home</a></li>
+        <li><a href="/aluno">Cursos</a></li>
+        <li><a href="/comunidadeAluno">Comunidade</a></li>
+        <li><a href="/aluno">Fundadores</a></li>
+      </ul>
+        
+      <div class="main">
+        <div class="chatBotIcon">
+          <a href="/chat" id="chat"><i class='bx bxs-message-rounded-dots'></i></a>
+        </div>
+        <a href="/cart" id="car"><i class='bx bxs-cart' style='color:#48a25a'  ></i></a>
+        <div id="btn-conta" class="btn-conta"></div>
+        <div class="btn-abrir-menu" id="btn-menu">
+          <i class='bx bx-menu'></i>
+        </div>
+      </div>
+        
+      <div class="menu-mobile" id="menu-mobile">
+        <div class="btn-fechar">
+          <i class='bx bx-x'></i>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="/aluno">Home</a></li><br>
+            <li><a href="/aluno">Cursos</a></li><br>
+            <li><a href="/comunidadeAluno">Comunidade</a></li><br>
+            <li><a href="/aluno">Fundadores</a></li><br>
+            <li><a href="/aluno">Login</a></li>
+          </ul>
+        </nav>
+      </div>
+        
+      <div class="overlay-menu" id="overlay-menu">
+
+      </div>
+
+    </header> 
+
+    <main>
+        <section class="video" id="video">
+            <div class="flex">
+                <h1 class="titulo">SESSÃO DE <span>VÍDEO</span>:</h1>
+                <h3>*vídeo sem conteúdo, por ser apenas uma simulação</h3><br>
+                <iframe class="player" width="560" height="315" 
+                src="https://www.youtube.com/embed/AjWfY7SnMBI?si=Lq7OQiFP2gR1yD6F" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

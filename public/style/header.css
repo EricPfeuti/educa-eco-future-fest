@@ -1,0 +1,178 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 4%;
+    transition: all .50s ease;
+    background-color: #fff;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px 0;
+    margin: 0px 20px;
+    transition: all .50s ease;
+    text-decoration: none;
+}
+
+.navbar li{
+    list-style-type: none;
+}
+
+.navbar a:hover{
+    color: #48A25A;
+}
+
+.navbar a.active{
+    color: #48A25A;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+}
+
+.main a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all .50s ease;
+    color: #000;
+}
+
+#car{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    font-size: 32px;
+    color: #48A25A;
+}
+
+#chat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+    font-size: 32px;
+    color: #48A25A;
+}
+
+@keyframes tremer{
+    0% {margin-right: 0;}
+    25% {margin-right: 7px; margin-left: -7px;}
+    50% {margin-right: 0;}
+    75% {margin-right: -7px; margin-left: 7px;}
+    100% {margin-right: 0;}
+}
+
+.main a:hover{
+    color: #48A25A;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+.overlay-menu{
+    display: none;
+}
+
+.btn-abrir-menu{
+    display: none;
+}
+
+@media screen and (max-width: 1080px) {
+    /* HEADER */
+    .navbar {
+        display: none;
+    }
+    header .navbar{
+        display: none;
+    }
+
+    /* MENU MOBILE */
+
+    .btn-abrir-menu{
+        display: block;
+    }
+
+    .btn-abrir-menu i{
+        color: #48A25A;
+        font-size: 40px;
+        padding-top: 5px;
+        margin-right: 5px;
+    }
+
+    .menu-mobile{
+        display: block;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 99999;
+        background-color: #000;
+        width: 0%;
+        overflow: hidden;
+        transition: .5s;
+    }
+
+    .menu-mobile.abrir-menu{
+        width: 70%;
+    }
+
+    .menu-mobile.abrir-menu ~ .overlay-menu{
+        display: block;
+    }
+
+    .menu-mobile nav ul{ 
+        text-align: right;
+        list-style-type: none;
+    }
+
+    .menu-mobile nav ul li a{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 300;
+        padding: 20px 4%;
+    }
+
+    .menu-mobile .btn-fechar{
+        padding: 20px 5%;
+    }
+
+    .menu-mobile .btn-fechar i{
+        color: #48A25A;
+        font-size: 40px;
+    }
+
+    .menu-mobile a{
+        text-decoration: none;
+    }
+
+    .overlay-menu{
+        background-color: #000000ab;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 8888;
+    }
+}

@@ -1,0 +1,127 @@
+/* CURSOS */
+#cursoCard #btn-cadastro{
+  width: 100%;
+  margin-top: 4px;
+  padding: 8px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #48A25A;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .2s;
+  color: #fff;
+}
+
+.container-cards #btn-cadastro{
+  width: 100%;
+  margin-top: 4px;
+  padding: 8px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #48A25A;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .2s;
+  color: #fff;
+}
+
+.container-cards .box-container #btn-cadastro button{
+  width: 100%;
+}
+
+.container-cards .box-container .box #btn-cadastro:hover{
+  transform: scale(1.01);
+}
+
+.container-cards .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+}
+
+.container-cards .box-container .box{
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  border-radius: 12px;
+  background: #fff;
+  padding: 30px 20px;
+  max-width: 335px;
+}
+
+.container-cards .box-container .box img{
+  width: 100%;
+  height: 160px;
+  border-radius: 4px;
+}
+
+.container-cards .box-container .box h3{
+  font-size: 24px;
+  font-weight: 650;
+  margin-bottom: 4px;
+}
+
+.container-cards .box-container .box h4{
+  font-size: 18px;
+  color: #626262;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.container-cards .box-container .box p{
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+/* CARDS COMUNIDADE */
+section.comunidade .cards, section.busca .cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section.comunidade .cards .card, section.busca .cards .card{
+  width: 50%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  padding: 30px 20px;
+  border-radius: 12px;
+}
+
+section.comunidade .cards .card h3, section.busca .cards .card h3{
+  font-size: 24px;
+}
+
+section.comunidade .cards .card h4, section.busca .cards .card h4{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+section.comunidade .cards .card p, section.busca .cards .card p{
+  margin-bottom: 10px;
+}
+
+section.comunidade .cards .card img, section.busca .cards .card img{
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+
+section.comunidade .cards .card .btns-comunidade{
+  display: flex; 
+  align-items: center; 
+  gap: 4px;
+}
+
+@media screen and (max-width: 720px) {
+  
+  section.comunidade .cards .card{
+    width: 100%;
+  }
+
+  section.comunidade .cards .card h3{
+    font-size: 22px;
+  }
+
+}

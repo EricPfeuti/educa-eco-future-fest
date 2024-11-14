@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+strike{
+    color: #595858;
+}
+
+body{
+    min-height: 100vh;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+span{
+    color: #48A25A;
+}
+
+#btn-cadastro button{
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #48A25A;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+    color: #fff;
+}
+
+.container-cards .box-container form{
+    border: none;
+}
+
+#btnDelete{
+    background-color: #f80000;
+    color: #fff;
+    padding: 5px 10px;
+    border: 0;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: .2s ease;
+    border: none;
+}
+
+#btnDelete:hover{
+    background-color: #ad0000;
+}
+
+#btnEdit{
+    background-color: #0057DA;
+    color: #fff;
+    padding: 5px 10px;
+    border: 0;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: .2s ease;
+    border: none;
+}
+
+#btnEdit:hover{
+    background-color: #002d71;
+}
+
+#btn-cadastro button:hover{
+    transform: scale(1.01);
+}
+
+.btn-social button{
+    border: none;
+    background-color: #48A25A;
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    font-size: 40px;
+    margin: 0;
+    cursor: pointer;
+    color: #fff;
+    transition: .3s ease;
+}
+
+.btn-social button:hover{
+    background: #25552f;
+}
+
+#btn-conta .center{
+    position: absolute;
+    top: 50%;
+    left: 44%;
+}
+
+#btn-conta a{
+    color: #fff;
+    background: #48A25A;
+    padding: 10px 0px 10px 25px;
+    font-weight: 620;
+    text-decoration: none;
+    transition: .2s ease;
+    border-radius: 4px;
+}
+
+#btn-conta a::after{
+    content: 'Exit';
+    position: relative;
+    left: -20px;
+    opacity: 0;
+    transition: .2s ease;
+    font-size: 18px;
+}
+
+#btn-conta a:hover::after{
+    left: 10px;
+    opacity: 1;
+}
+
+#btn-conta a:hover{
+    padding: 10px 30px 10px 25px;
+    background-color: red;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1080px) {
+    header #btn-cadastro button, header #btn-singOut button{
+        display: none;
+    }
+}

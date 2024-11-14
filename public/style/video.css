@@ -1,0 +1,22 @@
+section.video{
+    padding: 180px 4%;
+}
+
+section.video .player{
+    aspect-ratio: 16/9;
+    width: 100%;
+    border-radius: 12px;
+    height: 500px;
+}
+
+section.video .flex{
+    flex-direction: column;
+}
+
+section.video .flex .titulo{
+    text-align: center;
+}
+
+section.video .flex h3{
+    text-align: center;
+}

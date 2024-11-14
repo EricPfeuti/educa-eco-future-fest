@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/card.css">
+
+    <!-- Linking SwiperJS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="shortcut icon" href="images/logoEcoEduca.png" type="image/x-icon">
+
+    <!-- SCRIPT -->
+    <script defer src="js/menu.js"></script>
+    <script defer src="js/write.js"></script>
+    <script defer src="js/nomeProf.js"></script>
+    <script defer src="js/cursosProf.js"></script>
+
+    <title>EducaEco - Future Fest</title>
+</head>
+<body>
+    
+  <header>
+
+        <a href="#" class="logo">
+          <img src="images/logoEducaEcoPreto.png" alt="logoEducaEco">
+        </a>
+          
+        <ul class="navbar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#cursos">Cursos</a></li>
+          <li><a href="/comunidade">Comunidade</a></li>
+          <li><a href="#team">Fundadores</a></li>
+        </ul>
+          
+        <div class="main">
+          <div class="chatBotIcon">
+            <a href="/chatProf" id="chat"><i class='bx bxs-message-rounded-dots'></i></a>
+          </div>
+          <a href="/cart" id="car"><i class='bx bxs-cart' style='color:#48a25a'  ></i></a>
+          <div id="btn-conta" class="btn-conta"></div>
+          <div class="btn-abrir-menu" id="btn-menu">
+            <i class='bx bx-menu'></i>
+          </div>
+        </div>
+          
+        <div class="menu-mobile" id="menu-mobile">
+          <div class="btn-fechar">
+            <i class='bx bx-x'></i>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li><br>
+              <li><a href="#">Cursos</a></li><br>
+              <li><a href="/comunidade">Comunidade</a></li><br>
+              <li><a href="#team">Fundadores</a></li><br>
+            </ul>
+          </nav>
+        </div>
+          
+        <div class="overlay-menu" id="overlay-menu">
+
+        </div>
+
+  </header>
+
+  <main>
+
+    <section id="topo-do-site" class="topo-do-site">
+      <div class="interface">
+        <div class="flex">
+          <div class="txt-topo-site">
+            <h1 class="titulo">SUSTENTABILIDADE<span>.</span></h1>
+            <h3 class="sub-title"><span id="element" style="color: #000;"></span><span>Sustentabilidade</span>.</h3>
+            <p class="paragraph">Aprenda a fazer a diferença! Nosso site oferece cursos de abordagem prática para entender os desafios ambientais e sociais. Descubra práticas sustentáveis e como promover um futuro mais verde. Inscreva-se e torne-se um agente de mudança!</p>
+
+            <form action="/dadosCursoProf" method="get">
+              <input type="text" id="assuntoCurso" name="assuntoCurso" placeholder="Pesquisar curso por nome:">
+              <a href="#" id="btn-cadastro"><button type="submit">PESQUISAR</button></a>
+            </form>
+            <a href="/b-corpProf" id="btn-cadastro"><button class="btn"><i class='bx bxs-tree'></i> B-CORP</button></a>
+          </div>
+          <div class="img-topo-site">
+            <img src="/images/fundo.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cursos" class="cursos">
+      <div class="flex" style="flex-direction: column; align-items: center;">
+        <h1 class="titulo" style="text-align: center;">SELEÇÃO de <span>CURSOS</span>.</h1>
+        <a href="/cadastrarCurso" id="btn-cadastro"><button type="submit">CADASTRAR CURSO</button></a>
+      </div>
+      <div class="container-cards">
+        <div class="box-container" id="cursoCard">
+          <!-- CARDS CURSOS PROFESSOR -->
+        </div><br>
+      </div>
+    </section>
+
+    <section id="team" class="team">
+      <div class="flex">
+        <div class="container-team">
+        <h1 class="titulo" style="text-align: center;">FUNDADORES<span>.</span></h1><br><br>
+            <div class="row">
+                <div class="membro">
+                    <img src="images/EricPfeutiPerfil.png" alt="">
+                    <h2>Eric Pfeuti</h2>
+                    <div class="btn-social">
+                      <a href="https://www.instagram.com/eric.pfeuti/"><button><i class='bx bxl-instagram'></i></button></a>
+                      <a href="https://www.linkedin.com/in/eric-pfeuti-b481142a8/"><button><i class='bx bxl-linkedin-square'></i></button></a>
+                      <a href="https://github.com/EricPfeuti"><button><i class='bx bxl-github'></i></button></a>
+                    </div>
+                </div>
+                <div class="membro">
+                  <img src="images/RafaelSáPerfil.png" alt="">
+                  <h2>Rafael Sá</h2>
+                  <div class="btn-social">
+                    <a href="#"><button><i class='bx bxl-instagram'></i></button></a>
+                    <a href="#"><button><i class='bx bxl-linkedin-square'></i></button></a>
+                    <a href="#"><button><i class='bx bxl-github'></i></button></a>
+                  </div>
+                </div>
+                <div class="membro">
+                  <img src="images/LeonardoDuartePerfil.png" alt="">
+                  <h2>Leonardo Duarte</h2>
+                  <div class="btn-social">
+                    <a href="#/"><button><i class='bx bxl-instagram'></i></button></a>
+                    <a href="#"><button><i class='bx bxl-linkedin-square'></i></button></a>
+                    <a href="#"><button><i class='bx bxl-github'></i></button></a>
+                  </div>
+                </div>
+                <div class="membro">
+                  <img src="images/EmanuelDominguesPerfil.png" alt="">
+                  <h2>Emanuel Domingues</h2>
+                  <div class="btn-social">
+                    <a href="#/"><button><i class='bx bxl-instagram'></i></button></a>
+                    <a href="#"><button><i class='bx bxl-linkedin-square'></i></button></a>
+                    <a href="#"><button><i class='bx bxl-github'></i></button></a>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section><br><br>
+
+  </main>
+
+  <div class="chatBotIcon">
+    <a href="/prof" class="iconChat" target="_blank"><i class='bx bxs-message-rounded-dots'></i></a>
+  </div>
+
+  <footer>
+
+    <ul class="social-icon">
+      <li class="icon-elem">
+        <a href="#/" class="icon"><i class='bx bxl-instagram'></i></button></a>
+      </li>
+      <li class="icon-elem">
+        <a href="#" class="icon"><i class='bx bxl-github'></i></a>
+      </li>
+      <li class="icon-elem">
+        <a href="#" class="icon"><i class='bx bxl-figma'></i></a>
+      </li>
+    </ul>
+    <ul class="menu-footer">
+      <li class="menu-footer-elem">
+        <a href="#" class="menu-footer-icon">Home</a>
+      </li>
+      <li class="menu-footer-elem">
+        <a href="#" class="menu-footer-icon">Cursos</a>
+      </li>
+      <li class="menu-footer-elem">
+        <a href="#" class="menu-footer-icon">Comunidade</a>
+      </li>
+      <li class="menu-footer-elem">
+        <a href="#" class="menu-footer-icon">Fundadores</a>
+      </li>
+    </ul>
+    <p class="text">@EducaEco | Todos os direitos reservados</p>
+  </footer>
+
+</body>
+</html>
