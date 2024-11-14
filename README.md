@@ -62,4 +62,4 @@
 
 ## 🎥 VÍDEOS do USO do SITE:
   - Instalando extensões: https://youtu.be/7cxhKOe_G-A?si=QFG9dBPWi90g6Ku9
-  - EducaEco: https://youtu.be/OaROZjGL46U?si=yzQDc5xcduNHME2_
+  - EducaEco: https://youtu.be/OaROZjGL46U?si=yzQDc5xcduNHME2
