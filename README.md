@@ -27,11 +27,11 @@
   - npm install @google/generative-ai chalk ora prompt-sync
   - npm install method-override
 
-  - adicionar sua chave API em "const API_KEY":
+  - ### adicionar sua chave API em "const API_KEY":
     
     ![imgAPIKEY](https://github.com/user-attachments/assets/a9ede9d5-defa-41a6-9718-cbddedf31c79)
 
-  - #### node server.js
+  - ### node server.js
 
 
 ## ☘️ USO e ROTAS:
