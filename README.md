@@ -33,6 +33,7 @@
     
     ![imgAPIKEY](https://github.com/user-attachments/assets/a9ede9d5-defa-41a6-9718-cbddedf31c79)
 
+  - node server.js
 
 
 ## ☘️ USO e ROTAS:
