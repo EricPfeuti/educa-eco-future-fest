@@ -12,5 +12,5 @@
   - Plataforma que pode ser adotada para empresas e instituições que buscam treinamentos personalizados para seus colaboradores e interessados;
   - Chatbot que oferece ao usuário um bate-papo sobre o que ele precisa, por onde começar, quais seriam os interesses do usuário para apresentar os melhores cursos da área específica que o usuário deseja;
 - ### 👨‍💻 Linguagens Utilizadas:
-  [![My Skills](https://skillicons.dev/icons?i=js,nodejs,html,css,mongo)](https://skillicons.dev)
+  [![My Skills](https://skillicons.dev/icons?i=js,nodejs,html,css,mongo,bots)](https://skillicons.dev)
 - ### 💡 Problemas Resolvidos:
