@@ -1,5 +1,9 @@
 # ♻️ EducaEco - O Saber que Constrói um Amanhã Verde
 - Feito por: Eric Pfeuti, Leonardo Duarte, Emanuel Domingues e Rafael Sá;
+- Eric Pfeuti: responsável pelo backend e frontend;
+- Leonardo Duarte: responsável pelo chatbot;
+- Rafael Sá: responsável pelo design, estilização e figma do site;
+- Emanuel Domingues: responsável pelo design, estilização e figma do site;
 
 ## 📝 DESCRIÇÃO:
 
