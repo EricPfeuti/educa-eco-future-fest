@@ -8,7 +8,7 @@
 ## 📝 DESCRIÇÃO:
 
 - ### 🎯 Objetivo:
-  A EducaEco é uma plataforma de ensino online dedicada a promover práticas sustentáveis para indivíduos, empresas e instituições. Seu objetivo é fornecer conteúdos aplicáveis que incentivem ações sustentáveis, ajudando a capacitar os usuários a tomar decisões mais responsáveis e reduzir seu impacto ambiental;
+  A EducaEco é uma plataforma de ensino dedicada a promover práticas sustentáveis para indivíduos, empresas e instituições. Seu objetivo é fornecer conteúdos aplicáveis que incentivem ações sustentáveis, ajudando a capacitar os usuários a tomar decisões mais responsáveis e reduzir seu impacto ambiental;
 - ### ⚙️ Principais Funcionalidades:
   - Catálogo de cursos diversas categorias como: Economia Circular, Energia Renovável, Consumo Consciente, entre outros;
   - Carrinho de compras de cada usuário, onde é possível adicionar cursos do interesse do usuário e concluir a compra;
